@@ -10,5 +10,5 @@ Cheatsheet of ES6/ECMAScript 2015 features
 ## Default Function Parameters
 [default.js](default.js)
 
-## for...of and for...in
+## for...of
 [for.js](for.js)

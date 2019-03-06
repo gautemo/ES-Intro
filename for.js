@@ -16,13 +16,10 @@ for (const [i, name] of names.entries()) {
     console.log(i, name);
 }
 
-// for...in, don't confuse of and in
+// not to be confused with for...in
 for (const i in names) {
-    console.log(i); //in will give you the index, Output: 0 1 2 3 4
+    console.log(i); //for...in will give you the index, Output: 0 1 2 3 4
 }
 
-// so for...in is not often that useful, but maybe sometimes for objects
-const person = { name: 'Gaute', age: 27 };
-for (const prop in person) {
-    console.log(prop); //Output: name age
-}
+// foreach can also be used, but they are not breakable and function must run for each element in array
+names.forEach(name => console.log(name));
