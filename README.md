@@ -12,3 +12,6 @@ Cheatsheet of ES6/ECMAScript 2015 features
 
 ## for...of
 [for.js](for.js)
+
+## Arrow Functions
+[arrows.js](arrows.js)
