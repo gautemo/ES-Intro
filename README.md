@@ -27,3 +27,6 @@ Cheatsheet of ES6/ECMAScript 2015 features
 
 ## Promise, Set & Map
 [objects.js](src/objects.js)
+
+## Some new methods
+[methods.js](src/methods.js)
