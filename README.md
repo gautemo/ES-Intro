@@ -20,7 +20,7 @@ Cheatsheet of ES6/ECMAScript 2015 features
 [arrows.js](src/arrows.js)
 
 ## Destructing
-[desctructing.js](src/destructing.js)
+[destructuring.js](src/destructuring.js)
 
 ## Classes
 [class.js](src/class.js)
