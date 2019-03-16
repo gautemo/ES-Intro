@@ -18,3 +18,6 @@ Cheatsheet of ES6/ECMAScript 2015 features
 
 ## Arrow Functions
 [arrows.js](arrows.js)
+
+## Destructing
+[desctructing.js](destructing.js)
