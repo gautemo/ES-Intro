@@ -24,3 +24,6 @@ Cheatsheet of ES6/ECMAScript 2015 features
 
 ## Classes
 [class.js](src/class.js)
+
+## Promise, Set & Map
+[objects.js](src/objects.js)
