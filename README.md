@@ -30,3 +30,6 @@ Cheatsheet of ES6/ECMAScript 2015 features
 
 ## Some new methods
 [methods.js](src/methods.js)
+
+## Modules (export & import)
+[modules.js](src/modules.js)
