@@ -1,7 +1,9 @@
 <template>
   <div class="cont">
     <codemirror ref="cm" class="code-container" v-model="cmCode" :options="opt"></codemirror>
-    <p v-if="output" class="output">{{output}}</p>
+    <div v-if="output.length > 0" class="output">
+      <p v-for="o of output" :key="o">{{o}}</p>
+    </div>
   </div>
 </template>
 
@@ -10,6 +12,7 @@ import { codemirror } from "vue-codemirror";
 import "codemirror/lib/codemirror.css";
 import "codemirror/mode/javascript/javascript.js";
 import "codemirror/theme/monokai.css";
+import { setTimeout } from "timers";
 
 export default {
   name: "Code",
@@ -32,21 +35,33 @@ export default {
         }
       },
       cmCode: "",
-      output: ""
+      output: []
     };
   },
   methods: {
     runCode: function() {
+      const startFunc = `
+      const showValuesUniqueXYZ = [];
+      const pushToShowValuesArr = (...paramsUniqueXYZ) => {
+        for(let pUniqueXYZ of paramsUniqueXYZ){
+          showValuesUniqueXYZ.push(pUniqueXYZ);
+        }
+      }
+      `;
+      const endFunc = `
+      sessionStorage.setItem('runCodeOutput', JSON.stringify(showValuesUniqueXYZ));
+      `;
       const manipCode = this.cmCode.replace(
         /console\.log\(/gi,
-        "sessionStorage.setItem('runCodeOutput',"
+        "pushToShowValuesArr("
       );
-      const fun = new Function(manipCode);
+      const fun = new Function(startFunc + manipCode + endFunc);
       fun();
       this.addOutput();
     },
     addOutput: function() {
-      this.output = sessionStorage.getItem("runCodeOutput");
+      this.output = JSON.parse(sessionStorage.getItem("runCodeOutput"));
+      setTimeout(() => (this.output = []), 6000);
     }
   },
   created: function() {
