@@ -21,7 +21,18 @@ if(true){
 var humans = boys + girls;
 console.log(humans);
 `,
-      newCode: `let a = 4;`
+      newCode: `let value4 = 55;
+value4 = 5;
+if(true){
+    let value5 = 9;
+}
+console.log(value5);
+
+const value3 = 100;
+value3 = 0;
+const obj = { age: 27 };
+obj.age = 28;
+`
     };
   },
   components: {

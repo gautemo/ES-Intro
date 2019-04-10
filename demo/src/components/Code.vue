@@ -2,7 +2,11 @@
   <div class="cont">
     <codemirror ref="cm" class="code-container" v-model="cmCode" :options="opt"></codemirror>
     <div v-if="output.length > 0" class="output">
-      <p v-for="o of output" :key="o">{{o}}</p>
+      <p
+        :class="{ err: typeof o === 'string' && o.startsWith('error:') }"
+        v-for="o of output"
+        :key="o"
+      >{{o}}</p>
     </div>
   </div>
 </template>
@@ -12,7 +16,6 @@ import { codemirror } from "vue-codemirror";
 import "codemirror/lib/codemirror.css";
 import "codemirror/mode/javascript/javascript.js";
 import "codemirror/theme/monokai.css";
-import { setTimeout } from "timers";
 
 export default {
   name: "Code",
@@ -35,11 +38,13 @@ export default {
         }
       },
       cmCode: "",
-      output: []
+      output: [],
+      outputTimeout: null
     };
   },
   methods: {
     runCode: function() {
+      clearTimeout(this.outputTimeout);
       const startFunc = `
       const showValuesUniqueXYZ = [];
       const pushToShowValuesArr = (...paramsUniqueXYZ) => {
@@ -47,21 +52,33 @@ export default {
           showValuesUniqueXYZ.push(pUniqueXYZ);
         }
       }
+      try{
       `;
       const endFunc = `
+      }catch(error){
+        showValuesUniqueXYZ.push("error: " + error.message);
+      }
       sessionStorage.setItem('runCodeOutput', JSON.stringify(showValuesUniqueXYZ));
       `;
       const manipCode = this.cmCode.replace(
         /console\.log\(/gi,
         "pushToShowValuesArr("
       );
-      const fun = new Function(startFunc + manipCode + endFunc);
-      fun();
+      try {
+        sessionStorage.setItem("runCodeOutput", "[]");
+        const fun = new Function(startFunc + manipCode + endFunc);
+        fun();
+      } catch (error) {
+        sessionStorage.setItem(
+          "runCodeOutput",
+          JSON.stringify(["error: " + error.message])
+        );
+      }
       this.addOutput();
     },
     addOutput: function() {
       this.output = JSON.parse(sessionStorage.getItem("runCodeOutput"));
-      setTimeout(() => (this.output = []), 6000);
+      this.outputTimeout = setTimeout(() => (this.output = []), 6000);
     }
   },
   created: function() {
@@ -104,9 +121,17 @@ export default {
   bottom: 50px;
   left: 0;
   right: 0;
-  background: rgba(255, 255, 0, 0.8);
   z-index: 55;
-  font-size: 2em;
-  padding: 15px;
+  font-size: 2.5em;
+}
+
+.output p {
+  padding: 10px 30px 10px 70px;
+  margin: 0;
+  background: rgba(255, 255, 0, 0.9);
+}
+
+.output p.err {
+  background: rgb(219, 44, 21, 0.9);
 }
 </style>

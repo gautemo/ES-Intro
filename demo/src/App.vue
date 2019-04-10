@@ -37,7 +37,7 @@ export default {
   name: "app",
   data() {
     return {
-      slides: ["LetConst", "intro", "evolve", "LetConst"],
+      slides: ["intro", "evolve", "LetConst"],
       active: 0
     };
   },
