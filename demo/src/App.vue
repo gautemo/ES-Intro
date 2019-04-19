@@ -27,17 +27,11 @@
 </template>
 
 <script>
-import Slide from "./components/Slide.vue";
-import Clock from "./components/Clock.vue";
-import Intro from "./slides/Intro.vue";
-import Evolve from "./slides/Evolve.vue";
-import LetConst from "./slides/LetConst.vue";
-
 export default {
   name: "app",
   data() {
     return {
-      slides: ["intro", "evolve", "LetConst"],
+      slides: ["intro", "evolve", "LetConst", "Strings"],
       active: 0
     };
   },
@@ -72,11 +66,12 @@ export default {
     );
   },
   components: {
-    Slide,
-    Clock,
-    Intro,
-    Evolve,
-    LetConst
+    Slide: () => import("./components/Slide.vue"),
+    Clock: () => import("./components/Clock.vue"),
+    Intro: () => import("./slides/Intro.vue"),
+    Evolve: () => import("./slides/Evolve.vue"),
+    LetConst: () => import("./slides/LetConst.vue"),
+    Strings: () => import("./slides/Strings.vue")
   }
 };
 </script>
