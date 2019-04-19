@@ -125,10 +125,13 @@ export default {
   font-size: 2.5em;
 }
 
+.multi-line .output p {
+  white-space: pre-line;
+}
+
 .output p {
   padding: 10px 30px 10px 70px;
   margin: 0;
-  white-space: pre-line;
   background: rgba(255, 255, 0, 0.9);
 }
 

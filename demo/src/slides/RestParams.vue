@@ -23,10 +23,10 @@ func(1, 2, 3, "abc", { age: 100 });
 }
 func(1, 2, 3, "abc", { age: 100 });
 
-function max(...params) {
+function sum(...params) {
     console.log(params.reduce((t,n) => t += n));
 }
-max(1, 2, 3);
+sum(1, 2, 3);
 `
     };
   },

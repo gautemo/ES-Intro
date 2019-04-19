@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="multi-line">
     <h1>Template Literals</h1>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="Strings"/>
   </div>
