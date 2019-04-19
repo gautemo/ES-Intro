@@ -31,7 +31,7 @@ export default {
   name: "app",
   data() {
     return {
-      slides: ["intro", "evolve", "LetConst", "Strings"],
+      slides: ["intro", "evolve", "LetConst", "Strings", "RestParams"],
       active: 0
     };
   },
@@ -71,7 +71,8 @@ export default {
     Intro: () => import("./slides/Intro.vue"),
     Evolve: () => import("./slides/Evolve.vue"),
     LetConst: () => import("./slides/LetConst.vue"),
-    Strings: () => import("./slides/Strings.vue")
+    Strings: () => import("./slides/Strings.vue"),
+    RestParams: () => import("./slides/RestParams.vue")
   }
 };
 </script>
