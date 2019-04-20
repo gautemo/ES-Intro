@@ -38,7 +38,8 @@ export default {
         "Strings",
         "RestParams",
         "SpreadOperator",
-        "DefaultParam"
+        "DefaultParam",
+        "ForOf"
       ],
       active: 0
     };
@@ -82,7 +83,8 @@ export default {
     Strings: () => import("./slides/Strings.vue"),
     RestParams: () => import("./slides/RestParams.vue"),
     SpreadOperator: () => import("./slides/SpreadOperator.vue"),
-    DefaultParam: () => import("./slides/DefaultParam.vue")
+    DefaultParam: () => import("./slides/DefaultParam.vue"),
+    ForOf: () => import("./slides/ForOf.vue")
   }
 };
 </script>
