@@ -1,13 +1,15 @@
 <template>
   <div class="cont">
     <codemirror ref="cm" class="code-container" v-model="cmCode" :options="opt"></codemirror>
-    <div v-if="output.length > 0" class="output">
-      <p
-        :class="{ err: typeof o === 'string' && o.startsWith('error:') }"
-        v-for="o of output"
-        :key="o"
-      >{{o}}</p>
-    </div>
+    <transition name="fade">
+      <div v-if="output.length > 0" class="output">
+        <p
+          :class="{ err: typeof o === 'string' && o.startsWith('error:') }"
+          v-for="o of output"
+          :key="o"
+        >{{o}}</p>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -123,6 +125,7 @@ export default {
   right: 0;
   z-index: 55;
   font-size: 2.5em;
+  pointer-events: none;
 }
 
 .multi-line .output p {
@@ -133,9 +136,19 @@ export default {
   padding: 10px 30px 10px 70px;
   margin: 0;
   background: rgba(255, 255, 0, 0.9);
+  pointer-events: none;
 }
 
 .output p.err {
   background: rgb(219, 44, 21, 0.9);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

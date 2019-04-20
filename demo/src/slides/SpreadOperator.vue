@@ -18,7 +18,7 @@ console.log(Math.max(...numArr));
 
 const concated = [...numArr, ...numArr];
 
-console.log(...'text');
+console.log([...'text']);
 `
     };
   },

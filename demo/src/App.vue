@@ -37,7 +37,8 @@ export default {
         "LetConst",
         "Strings",
         "RestParams",
-        "SpreadOperator"
+        "SpreadOperator",
+        "DefaultParam"
       ],
       active: 0
     };
@@ -80,7 +81,8 @@ export default {
     LetConst: () => import("./slides/LetConst.vue"),
     Strings: () => import("./slides/Strings.vue"),
     RestParams: () => import("./slides/RestParams.vue"),
-    SpreadOperator: () => import("./slides/SpreadOperator.vue")
+    SpreadOperator: () => import("./slides/SpreadOperator.vue"),
+    DefaultParam: () => import("./slides/DefaultParam.vue")
   }
 };
 </script>
