@@ -39,7 +39,8 @@ export default {
         "RestParams",
         "SpreadOperator",
         "DefaultParam",
-        "ForOf"
+        "ForOf",
+        "Arrows"
       ],
       active: 0
     };
@@ -84,7 +85,8 @@ export default {
     RestParams: () => import("./slides/RestParams.vue"),
     SpreadOperator: () => import("./slides/SpreadOperator.vue"),
     DefaultParam: () => import("./slides/DefaultParam.vue"),
-    ForOf: () => import("./slides/ForOf.vue")
+    ForOf: () => import("./slides/ForOf.vue"),
+    Arrows: () => import("./slides/Arrows.vue")
   }
 };
 </script>
