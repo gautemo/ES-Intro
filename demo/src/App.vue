@@ -41,7 +41,8 @@ export default {
         "DefaultParam",
         "ForOf",
         "Arrows",
-        "Destructing"
+        "Destructing",
+        "Class"
       ],
       active: 0
     };
@@ -88,7 +89,8 @@ export default {
     DefaultParam: () => import("./slides/DefaultParam.vue"),
     ForOf: () => import("./slides/ForOf.vue"),
     Arrows: () => import("./slides/Arrows.vue"),
-    Destructing: () => import("./slides/Destructing")
+    Destructing: () => import("./slides/Destructing"),
+    Class: () => import("./slides/Class.vue")
   }
 };
 </script>
