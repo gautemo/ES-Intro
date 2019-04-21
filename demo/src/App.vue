@@ -40,7 +40,8 @@ export default {
         "SpreadOperator",
         "DefaultParam",
         "ForOf",
-        "Arrows"
+        "Arrows",
+        "Destructing"
       ],
       active: 0
     };
@@ -86,7 +87,8 @@ export default {
     SpreadOperator: () => import("./slides/SpreadOperator.vue"),
     DefaultParam: () => import("./slides/DefaultParam.vue"),
     ForOf: () => import("./slides/ForOf.vue"),
-    Arrows: () => import("./slides/Arrows.vue")
+    Arrows: () => import("./slides/Arrows.vue"),
+    Destructing: () => import("./slides/Destructing")
   }
 };
 </script>
