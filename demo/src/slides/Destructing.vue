@@ -23,6 +23,7 @@ var age = person.age;
       age: 27, nation: 'Norway' };
 
 const { firstName, age } = person;
+const { firstName: name, age: a } = person;
 
 function printName({ firstName, lastName }) {
     console.log(firstName + ' ' + lastName);

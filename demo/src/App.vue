@@ -42,7 +42,8 @@ export default {
         "ForOf",
         "Arrows",
         "Destructing",
-        "Class"
+        "Class",
+        "Promis"
       ],
       active: 0
     };
@@ -90,7 +91,8 @@ export default {
     ForOf: () => import("./slides/ForOf.vue"),
     Arrows: () => import("./slides/Arrows.vue"),
     Destructing: () => import("./slides/Destructing"),
-    Class: () => import("./slides/Class.vue")
+    Class: () => import("./slides/Class.vue"),
+    Promis: () => import("./slides/Promise.vue")
   }
 };
 </script>

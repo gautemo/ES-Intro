@@ -14,7 +14,7 @@ export default {
     return {
       oldCode: `//old way
 function func() {
-    console.log(arguments);
+    console.log(arguments[3]);
 }
 func(1, 2, 3, "abc", { age: 100 });
 `,

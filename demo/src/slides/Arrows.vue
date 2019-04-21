@@ -12,8 +12,7 @@ export default {
   name: "Arrows",
   data() {
     return {
-      oldCode: `
-`,
+      oldCode: ``,
       newCode: `const add = (n1, n2) => {
   const answer = n1 + n2;
   return answer;

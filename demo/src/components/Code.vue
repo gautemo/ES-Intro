@@ -48,38 +48,24 @@ export default {
     runCode: function() {
       clearTimeout(this.outputTimeout);
       const startFunc = `
-      const showValuesUniqueXYZ = [];
-      const pushToShowValuesArr = (...paramsUniqueXYZ) => {
-        for(let pUniqueXYZ of paramsUniqueXYZ){
-          showValuesUniqueXYZ.push(pUniqueXYZ);
-        }
-      }
       try{
       `;
       const endFunc = `
       }catch(error){
-        showValuesUniqueXYZ.push("error: " + error.message);
+        component.output.push("error: " + error.message);
       }
-      sessionStorage.setItem('runCodeOutput', JSON.stringify(showValuesUniqueXYZ));
       `;
       const manipCode = this.cmCode.replace(
         /console\.log\(/gi,
-        "pushToShowValuesArr("
+        "component.output.push("
       );
       try {
-        sessionStorage.setItem("runCodeOutput", "[]");
-        const fun = new Function(startFunc + manipCode + endFunc);
-        fun();
+        this.output = [];
+        const fun = new Function("component", startFunc + manipCode + endFunc);
+        fun(this);
       } catch (error) {
-        sessionStorage.setItem(
-          "runCodeOutput",
-          JSON.stringify(["error: " + error.message])
-        );
+        this.output.push("error: " + error.message);
       }
-      this.addOutput();
-    },
-    addOutput: function() {
-      this.output = JSON.parse(sessionStorage.getItem("runCodeOutput"));
       this.outputTimeout = setTimeout(() => (this.output = []), 6000);
     }
   },
