@@ -44,7 +44,8 @@ export default {
         "Destructing",
         "Class",
         "Promis",
-        "Set"
+        "Set",
+        "Map"
       ],
       active: 0
     };
@@ -94,7 +95,8 @@ export default {
     Destructing: () => import("./slides/Destructing"),
     Class: () => import("./slides/Class.vue"),
     Promis: () => import("./slides/Promise.vue"),
-    Set: () => import("./slides/Set.vue")
+    Set: () => import("./slides/Set.vue"),
+    Map: () => import("./slides/Map.vue")
   }
 };
 </script>
