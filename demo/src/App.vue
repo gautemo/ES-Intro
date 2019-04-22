@@ -43,7 +43,8 @@ export default {
         "Arrows",
         "Destructing",
         "Class",
-        "Promis"
+        "Promis",
+        "Set"
       ],
       active: 0
     };
@@ -92,7 +93,8 @@ export default {
     Arrows: () => import("./slides/Arrows.vue"),
     Destructing: () => import("./slides/Destructing"),
     Class: () => import("./slides/Class.vue"),
-    Promis: () => import("./slides/Promise.vue")
+    Promis: () => import("./slides/Promise.vue"),
+    Set: () => import("./slides/Set.vue")
   }
 };
 </script>
