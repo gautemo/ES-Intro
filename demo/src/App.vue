@@ -45,7 +45,10 @@ export default {
         "Class",
         "Promis",
         "Set",
-        "Map"
+        "Map",
+        "ObAssign",
+        "ArrayFind",
+        "StringRepInc"
       ],
       active: 0
     };
@@ -96,7 +99,10 @@ export default {
     Class: () => import("./slides/Class.vue"),
     Promis: () => import("./slides/Promise.vue"),
     Set: () => import("./slides/Set.vue"),
-    Map: () => import("./slides/Map.vue")
+    Map: () => import("./slides/Map.vue"),
+    ObAssign: () => import("./slides/ObAssign.vue"),
+    ArrayFind: () => import("./slides/ArrayFind.vue"),
+    StringRepInc: () => import("./slides/StringRepInc.vue")
   }
 };
 </script>
