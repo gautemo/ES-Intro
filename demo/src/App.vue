@@ -48,7 +48,9 @@ export default {
         "Map",
         "ObAssign",
         "ArrayFind",
-        "StringRepInc"
+        "StringRepInc",
+        "Module",
+        "End"
       ],
       active: 0
     };
@@ -102,7 +104,9 @@ export default {
     Map: () => import("./slides/Map.vue"),
     ObAssign: () => import("./slides/ObAssign.vue"),
     ArrayFind: () => import("./slides/ArrayFind.vue"),
-    StringRepInc: () => import("./slides/StringRepInc.vue")
+    StringRepInc: () => import("./slides/StringRepInc.vue"),
+    End: () => import("./slides/End.vue"),
+    Module: () => import("./slides/Module.vue")
   }
 };
 </script>
