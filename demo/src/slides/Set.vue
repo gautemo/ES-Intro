@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Set</h1>
+    <header>
+      <h1>Set</h1>
+      <h2>ES6</h2>
+    </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="Set"/>
   </div>
 </template>
@@ -26,6 +29,10 @@ console.log(...uniqueNumbers);
 </script>
 
 <style scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+}
 div {
   display: flex;
   flex-direction: column;

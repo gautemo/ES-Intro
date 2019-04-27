@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Default Parameters</h1>
+    <header>
+      <h1>Default Parameters</h1>
+      <h2>ES6</h2>
+    </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="DefaultParam"/>
   </div>
 </template>
@@ -36,6 +39,10 @@ console.log(copy([1,2,3], 2));
 </script>
 
 <style scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+}
 div {
   display: flex;
   flex-direction: column;

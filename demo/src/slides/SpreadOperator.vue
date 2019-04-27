@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Spread Operator</h1>
+    <header>
+      <h1>Spread Operator</h1>
+      <h2>ES6</h2>
+    </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="SpreadOperator"/>
   </div>
 </template>
@@ -29,6 +32,10 @@ console.log([...'text']);
 </script>
 
 <style scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+}
 div {
   display: flex;
   flex-direction: column;

@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Array find &amp; findIndex</h1>
+    <header>
+      <h1>Array find &amp; findIndex</h1>
+      <h2>ES6</h2>
+    </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="ArrayFind"/>
   </div>
 </template>
@@ -27,6 +30,10 @@ console.log(el, i);
 </script>
 
 <style scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+}
 div {
   display: flex;
   flex-direction: column;

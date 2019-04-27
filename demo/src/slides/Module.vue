@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Module</h1>
+    <header>
+      <h1>Module</h1>
+      <h2>ES6</h2>
+    </header>
     <div class="grid">
       <div class="web">
         <h3>Web</h3>
@@ -81,6 +84,10 @@ import { value2 as v2 } from 'modules';`
 </script>
 
 <style scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+}
 div {
   display: flex;
   flex-direction: column;

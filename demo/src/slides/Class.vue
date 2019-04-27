@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Classes</h1>
+    <header>
+      <h1>Classes</h1>
+      <h2>ES6</h2>
+    </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="Class"/>
   </div>
 </template>
@@ -51,6 +54,10 @@ console.log(myCat.info);
 </script>
 
 <style scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+}
 div {
   display: flex;
   flex-direction: column;

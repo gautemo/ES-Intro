@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Object Assign</h1>
+    <header>
+      <h1>Object Assign</h1>
+      <h2>ES6</h2>
+    </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="ObAssign"/>
   </div>
 </template>
@@ -27,6 +30,10 @@ console.log(person.company);
 </script>
 
 <style scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+}
 div {
   display: flex;
   flex-direction: column;

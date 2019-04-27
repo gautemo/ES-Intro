@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>String repeat &amp; includes</h1>
+    <header>
+      <h1>String repeat &amp; includes</h1>
+      <h2>ES6</h2>
+    </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="StringRepInc"/>
   </div>
 </template>
@@ -25,6 +28,10 @@ console.log('123'.includes('23'));
 </script>
 
 <style scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+}
 div {
   display: flex;
   flex-direction: column;

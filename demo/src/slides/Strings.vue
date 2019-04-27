@@ -1,6 +1,9 @@
 <template>
   <div class="multi-line">
-    <h1>Template Literals</h1>
+    <header>
+      <h1>Template Literals</h1>
+      <h2>ES6</h2>
+    </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="Strings"/>
   </div>
 </template>
@@ -31,6 +34,10 @@ Second line\`;
 </script>
 
 <style scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+}
 div {
   display: flex;
   flex-direction: column;

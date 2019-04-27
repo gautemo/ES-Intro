@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Map</h1>
+    <header>
+      <h1>Map</h1>
+      <h2>ES6</h2>
+    </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="Map"/>
   </div>
 </template>
@@ -30,6 +33,10 @@ for (const [key, value] of map.entries()) {
 </script>
 
 <style scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+}
 div {
   display: flex;
   flex-direction: column;
