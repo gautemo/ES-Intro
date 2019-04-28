@@ -17,7 +17,7 @@ getDataFromNetwork1(onDone); //Output after 300 ms: Finally!
 //ES6 Promises
 function getDataFromNetwork2() {
     return new Promise((resolve, reject) => {
-        setTimeout(() => resolve(), 300);
+        setTimeout(() => resolve(), 300); //If value should be retured, do it inside resolve()
     });
 }
 

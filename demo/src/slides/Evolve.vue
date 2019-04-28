@@ -2,10 +2,10 @@
   <div>
     <div class="grid">
       <h3>Year</h3>
-      <h3>Official name</h3>
+      <h3>Name</h3>
       <h3>Edition</h3>
-      <h3>Name</h3>
-      <h3>Name</h3>
+      <h3>Community Name</h3>
+      <h3>New Official Name</h3>
 
       <p :class="{ current: count === 0}">1997</p>
       <p :class="{ current: count === 0}">ECMAScript</p>
