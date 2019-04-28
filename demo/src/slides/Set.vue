@@ -15,7 +15,7 @@ export default {
   name: "Set",
   data() {
     return {
-      oldCode: ``,
+      oldCode: `const numbers = [1, 1, 1, 2, 3, 3, 3, 4, 5, 4];`,
       newCode: `const numbers = [1, 1, 1, 2, 3, 3, 3, 4, 5, 4];
 const uniqueNumbers = new Set(numbers);
 console.log(...uniqueNumbers);

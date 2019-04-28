@@ -15,7 +15,15 @@ export default {
   name: "DefaultParam",
   data() {
     return {
-      oldCode: ``,
+      oldCode: `function hi(name, msg){
+  if(!msg){
+    msg = 'Hello, ';
+  }
+  console.log(msg + name);
+}
+
+hi('Gaute');
+hi('Gaute', 'Stupid, ');`,
       newCode: `function hi(name, msg = 'Hello, '){
   console.log(msg + name);
 }

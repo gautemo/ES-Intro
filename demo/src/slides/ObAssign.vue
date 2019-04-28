@@ -15,7 +15,8 @@ export default {
   name: "ObAssign",
   data() {
     return {
-      oldCode: ``,
+      oldCode: `const person = { name: 'Gaute', age: 27 };
+const work = { company: 'Sopra Steria', place: 'Oslo' };`,
       newCode: `const person = { name: 'Gaute', age: 27 };
 const work = { company: 'Sopra Steria', place: 'Oslo' };
 Object.assign(person, work); //Person now contains all properties from work

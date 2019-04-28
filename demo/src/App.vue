@@ -50,6 +50,7 @@ export default {
         "ArrayFind",
         "StringRepInc",
         "Module",
+        "Includes",
         "End"
       ],
       active: 0
@@ -106,7 +107,8 @@ export default {
     ArrayFind: () => import("./slides/ArrayFind.vue"),
     StringRepInc: () => import("./slides/StringRepInc.vue"),
     End: () => import("./slides/End.vue"),
-    Module: () => import("./slides/Module.vue")
+    Module: () => import("./slides/Module.vue"),
+    Includes: () => import("./slides/Includes.vue")
   }
 };
 </script>

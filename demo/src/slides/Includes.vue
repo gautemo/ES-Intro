@@ -1,10 +1,10 @@
 <template>
   <div>
     <header>
-      <h1>Spread Operator</h1>
-      <h2>ES6</h2>
+      <h1>includes</h1>
+      <h2>ES7</h2>
     </header>
-    <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="SpreadOperator"/>
+    <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="Includes"/>
   </div>
 </template>
 
@@ -12,16 +12,13 @@
 import DoubleCode from "@/components/DoubleCode.vue";
 
 export default {
-  name: "SpreadOperator",
+  name: "Includes",
   data() {
     return {
-      oldCode: `const numArr = [10, 20, 30, 40, 50];`,
-      newCode: `const numArr = [10, 20, 30, 40, 50];
-console.log(Math.max(...numArr));
-
-const concated = [...numArr, ...numArr];
-
-console.log([...'text']);
+      oldCode: `//Old JavaScript
+var exists = [1, 2, 3].indexOf(1) !== -1;
+`,
+      newCode: `const exists = [1, 2, 3].includes(1);
 `
     };
   },
