@@ -1,4 +1,5 @@
 # demo
+Presentation of ES6, ES7 and ES8 at [es-intro.netlify.com/](https://es-intro.netlify.com/).
 
 ## Project setup
 ```
@@ -24,6 +25,3 @@ npm run test
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

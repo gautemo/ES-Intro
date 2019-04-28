@@ -2,11 +2,8 @@
   <div>
     <end-text/>
     <div class="links">
-      <a href="https://es-intro.netlify.com/">https://es-intro.netlify.com/</a>
-      <a
-        href="https://github.com/gautemo/ES-Intro"
-        target="_blank"
-      >https://github.com/gautemo/ES-Intro</a>
+      <a href="https://es-intro.netlify.com/">es-intro.netlify.com/</a>
+      <a href="https://github.com/gautemo/ES-Intro" target="_blank">github.com/gautemo/ES-Intro</a>
     </div>
     <div class="about-me">
       <homepage size="50px"/>

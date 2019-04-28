@@ -44,6 +44,7 @@ export default {
         "Destructing",
         "Class",
         "Promis",
+        "AsyncAwait",
         "Set",
         "Map",
         "ObAssign",
@@ -51,6 +52,7 @@ export default {
         "StringRepInc",
         "Module",
         "Includes",
+        "Exponentiation",
         "End"
       ],
       active: 0
@@ -108,7 +110,9 @@ export default {
     StringRepInc: () => import("./slides/StringRepInc.vue"),
     End: () => import("./slides/End.vue"),
     Module: () => import("./slides/Module.vue"),
-    Includes: () => import("./slides/Includes.vue")
+    Includes: () => import("./slides/Includes.vue"),
+    Exponentiation: () => import("./slides/Exponentiation.vue"),
+    AsyncAwait: () => import("./slides/AsyncAwait.vue")
   }
 };
 </script>
