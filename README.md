@@ -1,35 +1,42 @@
-# ES6-Intro
-Cheatsheet of ES6/ECMAScript 2015 features
+# ES-Intro
+Cheatsheet of new ECMAScript features and syntax.
 
-## const and let
-[variables.js](src/variables.js)
+## ES6/ES2015
 
-## Template Literals
-[strings.js](src/strings.js)
+### const and let
+[variables.js](src/es6/variables.js)
 
-## Rest Parameters and Spread Operator
-[spread-rest.js](src/spread-rest.js)
+### Template Literals
+[strings.js](src/es6/strings.js)
 
-## Default Function Parameters
-[default.js](src/default.js)
+### Rest Parameters and Spread Operator
+[spread-rest.js](src/es6/spread-rest.js)
 
-## for...of
-[for.js](src/for.js)
+### Default Function Parameters
+[default.js](src/es6/default.js)
 
-## Arrow Functions
-[arrows.js](src/arrows.js)
+### for...of
+[for.js](src/es6/for.js)
 
-## Destructing
-[destructuring.js](src/destructuring.js)
+### Arrow Functions
+[arrows.js](src/es6/arrows.js)
 
-## Classes
-[class.js](src/class.js)
+### Destructing
+[destructuring.js](src/es6/destructuring.js)
 
-## Promise, Set & Map
-[objects.js](src/objects.js)
+### Classes
+[class.js](src/es6/class.js)
 
-## Some new methods
-[methods.js](src/methods.js)
+### Promise, Set & Map
+[objects.js](src/es6/objects.js)
 
-## Modules (export & import)
-[modules.js](src/modules.js)
+### Some new methods
+[methods.js](src/es6/methods.js)
+
+### Modules (export & import)
+[modules.js](src/es6/modules.js)
+
+## ES7/ES2016
+
+### Includes
+[includes.js](src/es7/includes.js)
