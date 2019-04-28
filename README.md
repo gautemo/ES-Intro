@@ -40,3 +40,6 @@ Cheatsheet of new ECMAScript features and syntax.
 
 ### Includes
 [includes.js](src/es7/includes.js)
+
+### Exponentiation
+[exponentiation](src/es7/exponentiation.js)

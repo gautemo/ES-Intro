@@ -1,4 +1,4 @@
-//Old way
+//Old JavaScript
 var exists1 = [1, 2, 3].indexOf(1) !== -1;
 
 //ES7 has Array.prototype.includes()
