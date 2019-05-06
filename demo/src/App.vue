@@ -53,6 +53,7 @@ export default {
         "Module",
         "Includes",
         "Exponentiation",
+        "ValuesEntries",
         "End"
       ],
       active: 0
@@ -112,7 +113,8 @@ export default {
     Module: () => import("./slides/Module.vue"),
     Includes: () => import("./slides/Includes.vue"),
     Exponentiation: () => import("./slides/Exponentiation.vue"),
-    AsyncAwait: () => import("./slides/AsyncAwait.vue")
+    AsyncAwait: () => import("./slides/AsyncAwait.vue"),
+    ValuesEntries: () => import("./slides/ValuesEntries.vue")
   }
 };
 </script>
