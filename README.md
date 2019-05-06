@@ -54,3 +54,11 @@ Cheatsheet of new ECMAScript features and syntax.
 
 ### Object.values() & Object.entries()
 [object-values-entries.js](es8/object-values-entries.js)
+
+## ES9/ES2018
+
+### Spread & Rest for object properties
+[spread-rest-properties.js](es9/spread-rest-properties.js)
+
+### Promise finally
+[promise-finally.js](es9/promise-finally.js)
