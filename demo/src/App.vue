@@ -54,6 +54,7 @@ export default {
         "Includes",
         "Exponentiation",
         "ValuesEntries",
+        "StringPad",
         "End"
       ],
       active: 0
@@ -114,7 +115,8 @@ export default {
     Includes: () => import("./slides/Includes.vue"),
     Exponentiation: () => import("./slides/Exponentiation.vue"),
     AsyncAwait: () => import("./slides/AsyncAwait.vue"),
-    ValuesEntries: () => import("./slides/ValuesEntries.vue")
+    ValuesEntries: () => import("./slides/ValuesEntries.vue"),
+    StringPad: () => import("./slides/StringPad.vue")
   }
 };
 </script>
