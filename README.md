@@ -62,3 +62,6 @@ Cheatsheet of new ECMAScript features and syntax.
 
 ### Promise finally
 [promise-finally.js](es9/promise-finally.js)
+
+### Regex improvements
+[regex.js](es9/regex.js)
