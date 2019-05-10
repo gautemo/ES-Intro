@@ -18,14 +18,14 @@ export default {
       oldCode: `// Old JavaScript needed callback functions if waiting for methods
 function getDataFromNetwork(callback) {
     //pretend network call
-    onDone();
+    callback();
 }
 
 function onDone() {
     console.log('Finally!');
 }
 
-getDataFromNetwork();
+getDataFromNetwork(onDone);
 `,
       newCode: `function getDataFromNetwork() {
     return new Promise((resolve, reject) => {

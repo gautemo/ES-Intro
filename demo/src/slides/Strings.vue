@@ -18,11 +18,11 @@ export default {
       oldCode: `//old way
 const l1 = 'This is a number ' + 5 + '. And this is a boolean ' + true + '.';
 
-const l3 = 'First line \\nSecond line';
+const l2 = 'First line \\nSecond line';
 `,
-      newCode: `const l2 = \`This is a number ${5}. And this is a boolean ${true}.\`;
+      newCode: `const l1 = \`This is a number \${5}. And this is a boolean \${true}.\`;
 
-const l4 = \`First line
+const l2 = \`First line
 Second line\`;
 `
     };
