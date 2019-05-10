@@ -65,3 +65,6 @@ Cheatsheet of new ECMAScript features and syntax.
 
 ### Regex improvements
 [regex.js](es9/regex.js)
+
+## Presentation
+Presentation in folder [demo](demo), and hosted at [es-intro.netlify.com/](https://es-intro.netlify.com/).
