@@ -1,5 +1,5 @@
 //Old JavaScript
-var exists1 = [1, 2, 3].indexOf(1) !== -1;
+const exists1 = [1, 2, 3].indexOf(1) !== -1;
 
 //ES7 has Array.prototype.includes()
 const exists2 = [1, 2, 3].includes(1);

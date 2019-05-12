@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       oldCode: `//Old JavaScript
-var exists = [1, 2, 3].indexOf(1) !== -1;
+const exists = [1, 2, 3].indexOf(1) !== -1;
 `,
       newCode: `const exists = [1, 2, 3].includes(1);
 `
