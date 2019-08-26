@@ -66,5 +66,19 @@ Cheatsheet of new ECMAScript features and syntax.
 ### Regex improvements
 [regex.js](es9/regex.js)
 
+## ES10/ES2019
+
+### flat & flatMap
+[flat.js](es10/flat.js)
+
+### fromEntries
+[fromEntries.js](es10/fromEntries.js)
+
+### Optional catch binding
+[optional-catch-binding.js](es10/optional-catch-binding.js)
+
+### trimStart & trimEnd
+[trim-start-end.js](es10/trim-start-end.js)
+
 ## Presentation
 Presentation in folder [demo](demo), and hosted at [es-intro.netlify.com/](https://es-intro.netlify.com/).
