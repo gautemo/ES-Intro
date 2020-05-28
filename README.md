@@ -83,7 +83,7 @@ Cheatsheet of new ECMAScript features and syntax.
 ## ES11/ES202020
 
 ### Promise.allSettled
-[allSettled.js](es1/allSettled.js)
+[allSettled.js](es11/allSettled.js)
 
 ### BigInt
 [bigInt.js](es11/bigInt.js)
