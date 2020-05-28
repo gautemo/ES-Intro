@@ -80,5 +80,25 @@ Cheatsheet of new ECMAScript features and syntax.
 ### trimStart & trimEnd
 [trim-start-end.js](es10/trim-start-end.js)
 
+## ES11/ES202020
+
+### Promise.allSetled
+[allSettled.js](es1/allSetled.js)
+
+### BigInt
+[bigInt.js](es11/bigInt.js)
+
+### Dynamic import
+[dynamic-import.js](es11/dynamic-import.js)
+
+### matchAll
+[matchAll.js](es11/matchAll.js)
+
+### Nullish coalescing
+[nullish-coalescing.js](es11/nullish-coalescing.js)
+
+### Optional chaining
+[optional-chaining.js](es11/optional-chaining.js)
+
 ## Presentation
-Presentation in folder [demo](demo), and hosted at [es-intro.netlify.com/](https://es-intro.netlify.com/).
+Presentation in folder [demo](demo), and hosted at [es-intro.netlify.app/](https://es-intro.netlify.app/).
