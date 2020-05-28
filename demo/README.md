@@ -1,5 +1,5 @@
 # demo
-Presentation of ES6, ES7 and ES8 at [es-intro.netlify.com/](https://es-intro.netlify.com/).
+Presentation of ES6, ES7 and ES8 at [es-intro.netlify.app/](https://es-intro.netlify.app/).
 
 ## Project setup
 ```
