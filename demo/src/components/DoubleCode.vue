@@ -37,8 +37,7 @@ export default {
   },
   methods: {
     keyCheck: function(e) {
-      if (e.ctrlKey) {
-        const appEl = document.querySelector("#app");
+      if (e.ctrlKey || e.metaKey) {
         if (e.keyCode === 38) {
           this.up = true;
         } else if (e.keyCode === 40) {
