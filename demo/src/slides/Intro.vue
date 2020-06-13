@@ -7,9 +7,9 @@
       <twitter size="50px"/>
     </div>
     <div class="info">
-      <p>ctrl + ←↑↓→: to navigate</p>
-      <p>ctrl + Enter: to run code</p>
-      <p>ctrl + Alt: to reset code</p>
+      <p>ctrl/cmd + ←↑↓→: to navigate</p>
+      <p>ctrl/cmd + Enter: to run code</p>
+      <p>ctrl/cmd + Alt: to reset code</p>
     </div>
   </div>
 </template>

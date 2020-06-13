@@ -67,7 +67,7 @@ export default {
   },
   mounted: function() {
     document.addEventListener("keydown", e => {
-      if (e.ctrlKey) {
+      if (e.ctrlKey || e.metaKey) {
         const appEl = document.querySelector("#app");
         if (e.keyCode === 39 && this.active < this.slides.length - 1) {
           appEl.style.setProperty("--slide-in", "300px");
