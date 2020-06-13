@@ -67,13 +67,16 @@ export default {
   },
   mounted: function() {
     document.addEventListener("keydown", e => {
-      if (e.ctrlKey) {
+      if (e.ctrlKey || e.metaKey) {
         const appEl = document.querySelector("#app");
         if (e.keyCode === 39 && this.active < this.slides.length - 1) {
+          // cmd + left arrow will return to last webpage by default, should be prevented
+          e.preventDefault();
           appEl.style.setProperty("--slide-in", "300px");
           appEl.style.setProperty("--slide-out", "-300px");
           this.active++;
         } else if (e.keyCode === 37 && this.active > 0) {
+          e.preventDefault();
           appEl.style.setProperty("--slide-in", "-300px");
           appEl.style.setProperty("--slide-out", "300px");
           this.active--;
