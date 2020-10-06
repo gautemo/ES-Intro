@@ -80,7 +80,7 @@ Cheatsheet of new ECMAScript features and syntax.
 ### trimStart & trimEnd
 [trim-start-end.js](es10/trim-start-end.js)
 
-## ES11/ES202020
+## ES11/ES2020
 
 ### Promise.allSettled
 [allSettled.js](es11/allSettled.js)

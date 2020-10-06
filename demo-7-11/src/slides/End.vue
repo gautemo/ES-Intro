@@ -2,7 +2,7 @@
   <div>
     <end-text/>
     <div class="links">
-      <!-- <a href="https://es-intro.netlify.com/">es-intro.netlify.com/</a> -->
+      <a href="https://boyond-es6.netlify.app/">boyond-es6.netlify.app/</a>
       <a href="https://github.com/gautemo/ES-Intro" target="_blank">github.com/gautemo/ES-Intro</a>
     </div>
     <div class="about-me">
