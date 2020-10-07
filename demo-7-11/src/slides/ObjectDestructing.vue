@@ -1,10 +1,10 @@
 <template>
   <div>
     <header>
-      <h1>includes</h1>
-      <h2>ES2016</h2>
+      <h1>Object Destructing</h1>
+      <h2>ES2018</h2>
     </header>
-    <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="Includes"/>
+    <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="ObjectDestructing"/>
   </div>
 </template>
 
@@ -12,15 +12,14 @@
 import DoubleCode from "@/components/DoubleCode.vue";
 
 export default {
-  name: "Includes",
+  name: "ObjectDestructing",
   data() {
     return {
-      oldCode: `//Old JavaScript
-const exists = [1, 2, 3].indexOf(1) !== -1;
-console.log(exists);
-`,
-      newCode: `const exists = [1, 2, 3].includes(1);
-console.log(exists);
+      oldCode: `const me = { name: 'Gaute', age: 29, boy: true };`,
+      newCode: `const me = { name: 'Gaute', age: 29, boy: true };
+const { name, ...restOfMe } = me;
+console.log(name);
+console.log(restOfMe);
 `
     };
   },

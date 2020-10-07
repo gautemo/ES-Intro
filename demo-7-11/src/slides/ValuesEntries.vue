@@ -2,7 +2,7 @@
   <div>
     <header>
       <h1>Object values() &amp; entries()</h1>
-      <h2>ES8</h2>
+      <h2>ES2017</h2>
     </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="ValuesEntries"/>
   </div>
@@ -15,12 +15,12 @@ export default {
   name: "ValuesEntries",
   data() {
     return {
-      oldCode: ``,
+      oldCode: `const person = { name: 'Gaute', age: 27 };`,
       newCode: `const person = { name: 'Gaute', age: 27 };
 console.log(Object.values(person));
 
 for (let [p, val] of Object.entries(person)) {
-    console.log(p, val);
+    console.log([p, val]);
 }
 `
     };

@@ -2,7 +2,7 @@
   <div>
     <header>
       <h1>Exponentiation</h1>
-      <h2>ES7</h2>
+      <h2>ES2016</h2>
     </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="Exponentiation"/>
   </div>

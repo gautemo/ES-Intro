@@ -1,10 +1,10 @@
 <template>
   <div>
     <header>
-      <h1>includes</h1>
-      <h2>ES2016</h2>
+      <h1>BigInt</h1>
+      <h2>ES2020</h2>
     </header>
-    <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="Includes"/>
+    <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="BigInt"/>
   </div>
 </template>
 
@@ -12,15 +12,20 @@
 import DoubleCode from "@/components/DoubleCode.vue";
 
 export default {
-  name: "Includes",
+  name: "BigInt",
   data() {
     return {
-      oldCode: `//Old JavaScript
-const exists = [1, 2, 3].indexOf(1) !== -1;
-console.log(exists);
+      oldCode: `let max = Number.MAX_SAFE_INTEGER;
+max++;
+console.log(max);
+max++;
+console.log(max);
 `,
-      newCode: `const exists = [1, 2, 3].includes(1);
-console.log(exists);
+      newCode: `let big = BigInt(Number.MAX_SAFE_INTEGER);
+big++;
+console.log(big);
+big++;
+console.log(big);
 `
     };
   },

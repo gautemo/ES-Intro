@@ -1,10 +1,10 @@
 <template>
   <div>
     <header>
-      <h1>includes</h1>
-      <h2>ES2016</h2>
+      <h1>trimStart &amp; trimEnd</h1>
+      <h2>ES2019</h2>
     </header>
-    <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="Includes"/>
+    <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="TrimStartEnd"/>
   </div>
 </template>
 
@@ -12,15 +12,14 @@
 import DoubleCode from "@/components/DoubleCode.vue";
 
 export default {
-  name: "Includes",
+  name: "TrimStartEnd",
   data() {
     return {
-      oldCode: `//Old JavaScript
-const exists = [1, 2, 3].indexOf(1) !== -1;
-console.log(exists);
-`,
-      newCode: `const exists = [1, 2, 3].includes(1);
-console.log(exists);
+      oldCode: `const msg = '   Hello people and wolves   '
+console.log(msg.trim());`,
+      newCode: `const msg = '   Hello people and wolves   '
+console.log(msg.trimStart());
+console.log(msg.trimEnd());
 `
     };
   },

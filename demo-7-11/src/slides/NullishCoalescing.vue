@@ -1,10 +1,10 @@
 <template>
   <div>
     <header>
-      <h1>includes</h1>
-      <h2>ES2016</h2>
+      <h1>Nullish Coalescing</h1>
+      <h2>ES2020</h2>
     </header>
-    <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="Includes"/>
+    <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="NullishCoalescing"/>
   </div>
 </template>
 
@@ -12,15 +12,16 @@
 import DoubleCode from "@/components/DoubleCode.vue";
 
 export default {
-  name: "Includes",
+  name: "NullishCoalescing",
   data() {
     return {
-      oldCode: `//Old JavaScript
-const exists = [1, 2, 3].indexOf(1) !== -1;
-console.log(exists);
+      oldCode: `const person = { name: 'Gaute' }
+const name = person.name;
+console.log(name);
 `,
-      newCode: `const exists = [1, 2, 3].includes(1);
-console.log(exists);
+      newCode: `const person = { name: 'Gaute' }
+const name = person.name ?? 'anonymous';
+console.log(name);
 `
     };
   },

@@ -2,7 +2,7 @@
   <div>
     <header>
       <h1>String padding</h1>
-      <h2>ES8</h2>
+      <h2>ES2017</h2>
     </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="StringPadding"/>
   </div>
@@ -15,7 +15,8 @@ export default {
   name: "StringPadding",
   data() {
     return {
-      oldCode: ``,
+      oldCode: `const text = 'hello';
+console.log(text);`,
       newCode: `const text = 'hello'.padStart(9, '->').padEnd(13, '<-');
 console.log(text);
 `

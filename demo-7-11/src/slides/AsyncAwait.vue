@@ -2,7 +2,7 @@
   <div>
     <header>
       <h1>async &amp; await</h1>
-      <h2>ES8</h2>
+      <h2>ES2017</h2>
     </header>
     <DoubleCode class="code" :codeUp="oldCode" :codeDown="newCode" parent="AsyncAwait"/>
   </div>
