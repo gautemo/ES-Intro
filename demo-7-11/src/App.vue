@@ -33,6 +33,7 @@ export default {
     return {
       slides: [
         "intro",
+        "Me",
         "evolve",
         "Includes",
         "Exponentiation",
@@ -93,6 +94,7 @@ export default {
     Slide: () => import("./components/Slide.vue"),
     Clock: () => import("./components/Clock.vue"),
     Intro: () => import("./slides/Intro.vue"),
+    Me: () => import("./slides/Me.vue"),
     Evolve: () => import("./slides/Evolve.vue"),
     Includes: () => import("./slides/Includes.vue"),
     Exponentiation: () => import("./slides/Exponentiation.vue"),
