@@ -15,8 +15,8 @@ export default {
   name: "ValuesEntries",
   data() {
     return {
-      oldCode: `const person = { name: 'Gaute', age: 27 };`,
-      newCode: `const person = { name: 'Gaute', age: 27 };
+      oldCode: `const person = { name: 'Gaute', age: 29 };`,
+      newCode: `const person = { name: 'Gaute', age: 29 };
 console.log(Object.values(person));
 
 for (let [p, val] of Object.entries(person)) {

@@ -15,8 +15,7 @@ export default {
   name: "Includes",
   data() {
     return {
-      oldCode: `//Old JavaScript
-const exists = [1, 2, 3].indexOf(1) !== -1;
+      oldCode: `const exists = [1, 2, 3].indexOf(1) !== -1;
 console.log(exists);
 `,
       newCode: `const exists = [1, 2, 3].includes(1);
