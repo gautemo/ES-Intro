@@ -39,7 +39,7 @@ export default {
         "Exponentiation",
         "AsyncAwait",
         "ValuesEntries",
-        "StringPad",
+        // "StringPad",
         "ObjectSpread",
         "ObjectDestructing",
         "PromiseFinally",
