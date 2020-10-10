@@ -22,7 +22,7 @@ export default {
     const [r1, r2] = await Promise.all(promises);
     console.log(r1, r2);
   }catch{
-    console.log('😥')
+    console.log('😥');
   }
 }
 example();
