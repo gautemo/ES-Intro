@@ -2,11 +2,13 @@
 
 let x = 10;
 
-x &&= 3;
-x ||= 3;
-x ??= 3;
-
+x &&= 0;
 console.log(x);
+x ||= 1;
+console.log(x);
+x ??= 2;
+console.log(x);
+
 
 // why not just use x = x && y 
 // They only perform an assignment if the logical operation would evaluate the right-hand side.
