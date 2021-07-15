@@ -100,5 +100,28 @@ Cheatsheet of new ECMAScript features and syntax.
 ### Optional chaining
 [optional-chaining.js](es11/optional-chaining.js)
 
+## ES12/ES2021
+
+### Numeric separators
+[numeric-separators.js](es12/numeric-separators.js)
+
+### replaceAll
+[replaceAll.js](es12/replaceAll.js)
+
+### Promise.any
+[promise-any.js](es12/promise-any.js)
+
+### Logical assignment
+[logical-assignment.js](es12/logical-assignment.js)
+
+### WeakRef
+[WeakRef.js](es12/WeakRef.js)
+
 ## Presentation
-Presentation in folder [demo](demo), and hosted at [es-intro.netlify.app/](https://es-intro.netlify.app/).
+
+### New Things in JavaScript
+Presentation in folder [demo-6-8](demo-6-8), and hosted at [es-intro.netlify.app/](https://es-intro.netlify.app/).
+
+### Beyond ES6 - New Things in JavaScript
+Presentation in folder [demo-7-11](demo-7-11), and hosted at [beyond-es6.netlify.app/](https://beyond-es6.netlify.app/).
+
