@@ -18,11 +18,11 @@ const obj = {
     return this.value;
   },
   set y(value){
-    console.log('side effect');
+    console.log('side-effect');
     this.value = value;
   }
 }
 
 obj.y ??= 99;
-obj.y = obj.y ?? 99; // Output: side effect
+obj.y = obj.y ?? 99; // Output: side-effect
 console.log(obj.y);
