@@ -1,5 +1,5 @@
 // Old JavaScript
-(async() => {
+(async () => {
   const response = await fetch('https://github.com/')
   console.log(await response.text())
 })()
