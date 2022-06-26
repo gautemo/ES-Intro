@@ -117,6 +117,29 @@ Cheatsheet of new ECMAScript features and syntax.
 ### WeakRef
 [WeakRef.js](es12/WeakRef.js)
 
+## ES13/ES2022
+
+### Top-Level await
+[top-level-await.mjs](es13/top-level-await.mjs)
+
+### .at()
+[at.js](es13/at.js)
+
+### Error cause
+[error-cause.js](es13/error-cause.js)
+
+### Object.hasOwn
+[has-own.js](es13/has-own.js)
+
+### RegExp indices /d flag
+[regexp-d-flag](es13/regexp-d-flag.js)
+
+### New class elements
+[new-class-elements.js](es13/new-class-elements.js)
+
+### in operator for private fields and methods
+[private-field-in.js](es13/private-field-in.js)
+
 ## Presentation
 
 ### New Things in JavaScript
