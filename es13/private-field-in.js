@@ -1,7 +1,7 @@
 // ES2022 allows for checking if private field or method has beed defined in a class
 
 class Robot {
-  #age
+  #age = 0
   static hasAge(object){
     return #age in object
   }
