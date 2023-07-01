@@ -140,6 +140,20 @@ Cheatsheet of new ECMAScript features and syntax.
 ### in operator for private fields and methods
 [private-field-in.js](es13/private-field-in.js)
 
+## ES14/ES2023
+
+### Array find from last
+[array-find-from-last.js](es14/array-find-from-last.js)
+
+### Change array by copy
+[array-by-copy.js](es14/array-by-copy.js)
+
+### Hashbang
+[hashbang.js](es14/hashbang.js)
+
+### Symbols as keys in weak collections
+[symbol-in-weak.js](es14/symbol-in-weak.js)
+
 ## Presentation
 
 ### New Things in JavaScript
