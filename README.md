@@ -159,6 +159,9 @@ Cheatsheet of new ECMAScript features and syntax.
 ### Array Grouping
 [array-grouping.js](es15/array-grouping.js)
 
+### Promise.withResolvers
+[promise-withResolvers.js](es15/promise-withResolvers.js)
+
 ## Presentation
 
 ### New Things in JavaScript
