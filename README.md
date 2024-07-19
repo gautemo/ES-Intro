@@ -154,6 +154,11 @@ Cheatsheet of new ECMAScript features and syntax.
 ### Symbols as keys in weak collections
 [symbol-in-weak.js](es14/symbol-in-weak.js)
 
+## ES15/ES2024
+
+### Array Grouping
+[array-grouping.js](es15/array-grouping.js)
+
 ## Presentation
 
 ### New Things in JavaScript
