@@ -162,6 +162,9 @@ Cheatsheet of new ECMAScript features and syntax.
 ### Promise.withResolvers
 [promise-withResolvers.js](es15/promise-withResolvers.js)
 
+### Well formed strings
+[well-formed.js](es15/well-formed.js)
+
 ## Presentation
 
 ### New Things in JavaScript
