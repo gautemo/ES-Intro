@@ -165,6 +165,9 @@ Cheatsheet of new ECMAScript features and syntax.
 ### Well formed strings
 [well-formed.js](es15/well-formed.js)
 
+### Atomics waitAsync
+[atomics-waitAsync.js](es15/atomics-waitAsync.js)
+
 ## Presentation
 
 ### New Things in JavaScript
