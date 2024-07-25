@@ -171,6 +171,9 @@ Cheatsheet of new ECMAScript features and syntax.
 ### RegExp unicodeSets
 [regexp-unicodesets.js](es15/regexp-unicodesets.js)
 
+### ArrayBuffer resize and transfer
+[arraybuffer.js](es15/arraybuffer.js)
+
 ## Presentation
 
 ### New Things in JavaScript
