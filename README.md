@@ -168,6 +168,9 @@ Cheatsheet of new ECMAScript features and syntax.
 ### Atomics waitAsync
 [atomics-waitAsync.js](es15/atomics-waitAsync.js)
 
+### RegExp unicodeSets
+[regexp-unicodesets.js](es15/regexp-unicodesets.js)
+
 ## Presentation
 
 ### New Things in JavaScript
