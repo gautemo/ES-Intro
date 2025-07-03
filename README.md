@@ -174,6 +174,29 @@ Cheatsheet of new ECMAScript features and syntax.
 ### ArrayBuffer resize and transfer
 [arraybuffer.js](es15/arraybuffer.js)
 
+## ES16/ES2025
+
+### Duplicate named capturing groups
+[duplicate-named-capturing-groups.js](es16/duplicate-named-capturing-groups.js)
+
+### Float16Array
+[float16array.js](es16/float16array.js)
+
+### Import Attributes & JSON modules
+[import-attributes-and-json-import.mjs](es16/import-attributes-and-json-import.mjs)
+
+### Iterator helpers
+[iterator-helpers.js](es16/iterator-helpers.js)
+
+### Regular Expression Escaping
+[regular-expression-escaping.js](es16/regular-expression-escaping.js)
+
+### Regular Expression Pattern Modifiers
+[regular-expression-pattern-modifiers.js](es16/regular-expression-pattern-modifiers.js)
+
+### Set methods
+[set-mothods.js](es16/set-methods.js)
+
 ## Presentation
 
 ### New Things in JavaScript
