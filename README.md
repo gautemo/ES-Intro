@@ -197,13 +197,5 @@ Cheatsheet of new ECMAScript features and syntax.
 ### Set methods
 [set-mothods.js](es16/set-methods.js)
 
-## Presentation
-
-### New Things in JavaScript
-Presentation in folder [demo-6-8](demo-6-8), and hosted at [es-intro.netlify.app/](https://es-intro.netlify.app/).
-
-### Beyond ES6 - New Things in JavaScript
-Presentation in folder [demo-7-11](demo-7-11), and hosted at [beyond-es6.netlify.app/](https://beyond-es6.netlify.app/).
-
 ## Releases
 [https://github.com/tc39/ecma262/releases](https://github.com/tc39/ecma262/releases)
