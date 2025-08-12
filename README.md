@@ -1,201 +1,201 @@
 # ES-Intro
 Cheatsheet of new ECMAScript features and syntax.
 
-## ES6/ES2015
+## ES2015/ES6
 
 ### const and let
-[variables.js](es6/variables.js)
+[variables.js](ES2015/variables.js)
 
 ### Template Literals
-[strings.js](es6/strings.js)
+[strings.js](ES2015/strings.js)
 
 ### Rest Parameters and Spread Operator
-[spread-rest.js](es6/spread-rest.js)
+[spread-rest.js](ES2015/spread-rest.js)
 
 ### Default Function Parameters
-[default.js](es6/default.js)
+[default.js](ES2015/default.js)
 
 ### for...of
-[for.js](es6/for.js)
+[for.js](ES2015/for.js)
 
 ### Arrow Functions
-[arrows.js](es6/arrows.js)
+[arrows.js](ES2015/arrows.js)
 
 ### Destructing
-[destructuring.js](es6/destructuring.js)
+[destructuring.js](ES2015/destructuring.js)
 
 ### Classes
-[class.js](es6/class.js)
+[class.js](ES2015/class.js)
 
 ### Promise, Set & Map
-[objects.js](es6/objects.js)
+[objects.js](ES2015/objects.js)
 
 ### Some new methods
-[methods.js](es6/methods.js)
+[methods.js](ES2015/methods.js)
 
 ### Modules (export & import)
-[modules.js](es6/modules.js)
+[modules.js](ES2015/modules.js)
 
-## ES7/ES2016
+## ES2016/ES7
 
 ### Includes
-[includes.js](es7/includes.js)
+[includes.js](ES2016/includes.js)
 
 ### Exponentiation
-[exponentiation.js](es7/exponentiation.js)
+[exponentiation.js](ES2016/exponentiation.js)
 
-## ES8/ES2017
+## ES2017/ES8
 
 ### async & await
-[async-await.js](es8/async-await.js)
+[async-await.js](ES2017/async-await.js)
 
 ### String padding
-[pad.js](es8/pad.js)
+[pad.js](ES2017/pad.js)
 
 ### Object.values() & Object.entries()
-[object-values-entries.js](es8/object-values-entries.js)
+[object-values-entries.js](ES2017/object-values-entries.js)
 
-## ES9/ES2018
+## ES2018/ES9
 
 ### Spread & Rest for object properties
-[spread-rest-properties.js](es9/spread-rest-properties.js)
+[spread-rest-properties.js](ES2018/spread-rest-properties.js)
 
 ### Promise finally
-[promise-finally.js](es9/promise-finally.js)
+[promise-finally.js](ES2018/promise-finally.js)
 
 ### Regex improvements
-[regex.js](es9/regex.js)
+[regex.js](ES2018/regex.js)
 
-## ES10/ES2019
+## ES2019/ES10
 
 ### flat & flatMap
-[flat.js](es10/flat.js)
+[flat.js](ES2019/flat.js)
 
 ### fromEntries
-[fromEntries.js](es10/fromEntries.js)
+[fromEntries.js](ES2019/fromEntries.js)
 
 ### Optional catch binding
-[optional-catch-binding.js](es10/optional-catch-binding.js)
+[optional-catch-binding.js](ES2019/optional-catch-binding.js)
 
 ### trimStart & trimEnd
-[trim-start-end.js](es10/trim-start-end.js)
+[trim-start-end.js](ES2019/trim-start-end.js)
 
-## ES11/ES2020
+## ES2020/ES11
 
 ### Promise.allSettled
-[allSettled.js](es11/allSettled.js)
+[allSettled.js](ES2020/allSettled.js)
 
 ### BigInt
-[bigInt.js](es11/bigInt.js)
+[bigInt.js](ES2020/bigInt.js)
 
 ### Dynamic import
-[dynamic-import.js](es11/dynamic-import.js)
+[dynamic-import.js](ES2020/dynamic-import.js)
 
 ### matchAll
-[matchAll.js](es11/matchAll.js)
+[matchAll.js](ES2020/matchAll.js)
 
 ### Nullish coalescing
-[nullish-coalescing.js](es11/nullish-coalescing.js)
+[nullish-coalescing.js](ES2020/nullish-coalescing.js)
 
 ### Optional chaining
-[optional-chaining.js](es11/optional-chaining.js)
+[optional-chaining.js](ES2020/optional-chaining.js)
 
-## ES12/ES2021
+## ES2021/ES12
 
 ### Numeric separators
-[numeric-separators.js](es12/numeric-separators.js)
+[numeric-separators.js](ES2021/numeric-separators.js)
 
 ### replaceAll
-[replaceAll.js](es12/replaceAll.js)
+[replaceAll.js](ES2021/replaceAll.js)
 
 ### Promise.any
-[promise-any.js](es12/promise-any.js)
+[promise-any.js](ES2021/promise-any.js)
 
 ### Logical assignment
-[logical-assignment.js](es12/logical-assignment.js)
+[logical-assignment.js](ES2021/logical-assignment.js)
 
 ### WeakRef
-[WeakRef.js](es12/WeakRef.js)
+[WeakRef.js](ES2021/WeakRef.js)
 
-## ES13/ES2022
+## ES2022/ES13
 
 ### Top-Level await
-[top-level-await.mjs](es13/top-level-await.mjs)
+[top-level-await.mjs](ES2022/top-level-await.mjs)
 
 ### .at()
-[at.js](es13/at.js)
+[at.js](ES2022/at.js)
 
 ### Error cause
-[error-cause.js](es13/error-cause.js)
+[error-cause.js](ES2022/error-cause.js)
 
 ### Object.hasOwn
-[has-own.js](es13/has-own.js)
+[has-own.js](ES2022/has-own.js)
 
 ### RegExp indices /d flag
-[regexp-d-flag](es13/regexp-d-flag.js)
+[regexp-d-flag](ES2022/regexp-d-flag.js)
 
 ### New class elements
-[new-class-elements.js](es13/new-class-elements.js)
+[new-class-elements.js](ES2022/new-class-elements.js)
 
 ### in operator for private fields and methods
-[private-field-in.js](es13/private-field-in.js)
+[private-field-in.js](ES2022/private-field-in.js)
 
-## ES14/ES2023
+## ES2023/ES14
 
 ### Array find from last
-[array-find-from-last.js](es14/array-find-from-last.js)
+[array-find-from-last.js](ES2023/array-find-from-last.js)
 
 ### Change array by copy
-[array-by-copy.js](es14/array-by-copy.js)
+[array-by-copy.js](ES2023/array-by-copy.js)
 
 ### Hashbang
-[hashbang.js](es14/hashbang.js)
+[hashbang.js](ES2023/hashbang.js)
 
 ### Symbols as keys in weak collections
-[symbol-in-weak.js](es14/symbol-in-weak.js)
+[symbol-in-weak.js](ES2023/symbol-in-weak.js)
 
-## ES15/ES2024
+## ES2024/ES15
 
 ### Array Grouping
-[array-grouping.js](es15/array-grouping.js)
+[array-grouping.js](ES2024/array-grouping.js)
 
 ### Promise.withResolvers
-[promise-withResolvers.js](es15/promise-withResolvers.js)
+[promise-withResolvers.js](ES2024/promise-withResolvers.js)
 
 ### Well formed strings
-[well-formed.js](es15/well-formed.js)
+[well-formed.js](ES2024/well-formed.js)
 
 ### Atomics waitAsync
-[atomics-waitAsync.js](es15/atomics-waitAsync.js)
+[atomics-waitAsync.js](ES2024/atomics-waitAsync.js)
 
 ### RegExp unicodeSets
-[regexp-unicodesets.js](es15/regexp-unicodesets.js)
+[regexp-unicodesets.js](ES2024/regexp-unicodesets.js)
 
 ### ArrayBuffer resize and transfer
-[arraybuffer.js](es15/arraybuffer.js)
+[arraybuffer.js](ES2024/arraybuffer.js)
 
-## ES16/ES2025
+## ES2025/ES16
 
 ### Duplicate named capturing groups
-[duplicate-named-capturing-groups.js](es16/duplicate-named-capturing-groups.js)
+[duplicate-named-capturing-groups.js](ES2025/duplicate-named-capturing-groups.js)
 
 ### Float16Array
-[float16array.js](es16/float16array.js)
+[float16array.js](ES2025/float16array.js)
 
 ### Import Attributes & JSON modules
-[import-attributes-and-json-import.mjs](es16/import-attributes-and-json-import.mjs)
+[import-attributes-and-json-import.mjs](ES2025/import-attributes-and-json-import.mjs)
 
 ### Iterator helpers
-[iterator-helpers.js](es16/iterator-helpers.js)
+[iterator-helpers.js](ES2025/iterator-helpers.js)
 
 ### Regular Expression Escaping
-[regular-expression-escaping.js](es16/regular-expression-escaping.js)
+[regular-expression-escaping.js](ES2025/regular-expression-escaping.js)
 
 ### Regular Expression Pattern Modifiers
-[regular-expression-pattern-modifiers.js](es16/regular-expression-pattern-modifiers.js)
+[regular-expression-pattern-modifiers.js](ES2025/regular-expression-pattern-modifiers.js)
 
 ### Set methods
-[set-mothods.js](es16/set-methods.js)
+[set-mothods.js](ES2025/set-methods.js)
 
 ## Releases
 [https://github.com/tc39/ecma262/releases](https://github.com/tc39/ecma262/releases)
