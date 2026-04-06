@@ -1,6 +1,29 @@
 # ES-Intro
 Cheatsheet of new ECMAScript features and syntax.
 
+## ES2026/ES17
+
+### Upsert/getOrInsert
+[upsert.js](ES2026/upsert.js)
+
+### sumPrecise
+[sum-precise.js](ES2026/sum-precise.js)
+
+### Error.isError
+[is-error.js](ES2026/is-error.js)
+
+### fromAsync
+[from-async.js](ES2026/from-async.js)
+
+### Iterator.concat
+[iterator-concat.js](ES2026/iterator-concat.js)
+
+### JSON.parse source
+[json-parse-source.js](ES2026/json-parse-source.js)
+
+## Uint8Array to/from base64 and hex
+[uint8array-base64-hex.js](ES2026/uint8array-base64-hex.js)
+
 ## ES2025/ES16
 
 ### Duplicate named capturing groups
