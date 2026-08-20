@@ -21,7 +21,7 @@ Cheatsheet of new ECMAScript features and syntax.
 ### JSON.parse source
 [json-parse-source.js](ES2026/json-parse-source.js)
 
-## Uint8Array to/from base64 and hex
+### Uint8Array to/from base64 and hex
 [uint8array-base64-hex.js](ES2026/uint8array-base64-hex.js)
 
 ## ES2025/ES16
